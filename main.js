@@ -4,7 +4,7 @@ const path = require('path');
 
 let mainWindow;
 
-const uri = "mongodb+srv://j2patel4545:32193219j@cluster0.oe8uz52.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Pramukh";
+const uri = "mongodb+srv://j2patel4545:password@cluster0.oe8uz52.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Pramukh";
 const client = new MongoClient(uri);
 const dbName = "restaurantBilling";
 
