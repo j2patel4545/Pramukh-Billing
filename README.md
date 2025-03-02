@@ -42,7 +42,7 @@ This will generate a **.deb file** for Ubuntu.
 
 This project uses **MongoDB Atlas**. Update the connection string in `main.js`:
 ```js
-const uri = "mongodb+srv://your-username:your-password@cluster.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv:";
 ```
 
 ## 🖨️ Printing Bills
